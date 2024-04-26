@@ -5,7 +5,7 @@ from PIL import Image
 
 #@st.cache(allow_output_mutation=True)
 def load_model():
-	model = tf.keras.models.load_model('Brain-Tumour/Brain_tu.hdf5')
+	model = tf.keras.models.load_model('Brain-Tumour/brainMRI.hdf5')
 	return model
 
 
