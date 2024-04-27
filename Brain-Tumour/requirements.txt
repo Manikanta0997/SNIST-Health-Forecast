@@ -4,3 +4,4 @@ scikit_learn
 streamlit
 tensorflow
 opencv-python
+skimage
