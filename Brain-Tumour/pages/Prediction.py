@@ -13,7 +13,7 @@ from sklearn.linear_model import LinearRegression
 st.set_option('deprecation.showfileUploaderEncoding', False)
 
 def load_model():
-    model = tf.keras.models.load_model('brain_final.hdf5')
+    model = tf.keras.models.load_model('Brain-Tumour/brain_final.hdf5')
     return model
 
 model = load_model()
